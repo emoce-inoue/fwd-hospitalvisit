@@ -4,6 +4,11 @@
   opacity: 0;
 }
 
+.js-scrollin {
+  opacity: 0;
+  translate: 0 10px;
+}
+
 .js-fade.is-inview {
   animation: fade 1s linear forwards;
 }
@@ -14,6 +19,14 @@
 
 .js-fadein.is-inview {
   animation: fadein 1s ease-out forwards;
+}
+
+.js-scrollin.is-inview {
+  opacity: 1;
+  translate: 0;
+  transition:
+    opacity 0.5s ease,
+    translate 0.5s ease;
 }
 
 @keyframes fade {
@@ -55,5 +68,26 @@
   100% {
     opacity: 1;
     translate: 0;
+  }
+}
+
+@keyframes fixed-nav-arrow {
+  0% {
+    opacity: 1;
+    translate: 0 0;
+  }
+
+  30% {
+    translate: 0 3px;
+  }
+
+  70% {
+    opacity: 0;
+    translate: 0 3px;
+  }
+
+  100% {
+    opacity: 0;
+    translate: 0 0;
   }
 }
