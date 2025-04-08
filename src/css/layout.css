@@ -75,7 +75,7 @@
 .l-header__hamburger-line {
   inline-size: 100%;
   block-size: 2.5px;
-  background-color: var(--color-bluescale-500);
+  background-color: var(--hamburger-line);
   border-radius: var(--rounded-xs);
   transition: transform 0.3s ease;
 }
@@ -194,7 +194,7 @@
   position: relative;
   margin-block-start: calc(-247 / var(--layout-width-scroll) * 100%);
   padding-block: calc(46 / var(--layout-width-scroll) * 100%) calc(30 / var(--layout-width-scroll) * 100%);
-  background-color: var(--color-yellowscale-500);
+  background-color: var(--background-yellow);
   box-shadow: var(--shadow-title);
 }
 
@@ -238,7 +238,7 @@
   z-index: var(--default-z-index);
   position: relative;
   padding-block: calc(73 / var(--layout-width-scroll) * 100%) calc(67 / var(--layout-width-scroll) * 100%);
-  background-color: var(--color-yellowscale-500);
+  background-color: var(--background-yellow);
 }
 
 /* anchor */
@@ -719,7 +719,7 @@
 }
 
 .l-service__button-icon-elm {
-  fill: var(--color-grayscale-0);
+  fill: var(--background-base);
 }
 
 .l-service__button-headline {
@@ -731,7 +731,7 @@
 }
 
 .l-service__button-headline-elm {
-  fill: var(--color-grayscale-0);
+  fill: var(--background-base);
 }
 
 .l-service__button-arrow {
@@ -746,7 +746,7 @@
 }
 
 .l-service__button-arrow-elm {
-  stroke: var(--color-grayscale-0);
+  stroke: var(--background-base);
 }
 
 .l-footer {
@@ -975,7 +975,7 @@
   }
 
   .l-fixed-nav__button-icon-elm {
-    fill: var(--color-grayscale-0);
+    fill: var(--background-base);
     transition: fill 0.3s ease;
   }
 
@@ -988,7 +988,7 @@
   }
 
   .l-fixed-nav__button-headline-elm {
-    fill: var(--color-grayscale-0);
+    fill: var(--background-base);
     transition: fill 0.3s ease;
   }
 
@@ -1004,7 +1004,7 @@
   }
 
   .l-fixed-nav__button-arrow-elm {
-    stroke: var(--color-grayscale-0);
+    stroke: var(--background-base);
     transition: stroke 0.3s ease;
   }
 
@@ -1237,7 +1237,7 @@
   }
 
   .l-fixed-nav__list-link:hover .l-fixed-nav__list-link-arrow {
-    animation: fixed-nav-arrow 1.8s ease-in-out both infinite;
+    animation: fixed-nav-arrow 1.5s ease-in-out both infinite;
   }
 
   .l-footer__top-button:hover .l-footer__top-button-inner {
