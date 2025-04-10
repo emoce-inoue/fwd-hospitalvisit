@@ -70,6 +70,7 @@
   display: flex;
   justify-content: space-between;
   flex-direction: column;
+  block-size: 100%;
 }
 
 .l-header__hamburger-line {
