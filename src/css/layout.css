@@ -321,7 +321,7 @@
 }
 
 .l-anchor__list-text {
-  line-height: var(--leading-snug);
+  line-height: var(--leading-tight);
   text-align: center;
 }
 
@@ -340,6 +340,7 @@
 }
 
 .l-anchor__list-text-main-small {
+  font-weight: var(--font-normal);
   font-size: calc(13 * var(--rem-ratio));
   color: var(--color-grayscale-1000);
 }
