@@ -198,7 +198,6 @@
   margin-block-start: calc(379 / var(--layout-width-scroll) * 100%);
   line-height: var(--leading-tight);
   font-size: calc(12 * var(--rem-ratio));
-  font-weight: var(--font-thin);
   color: var(--font-blue);
 }
 
