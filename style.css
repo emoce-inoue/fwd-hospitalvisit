@@ -463,11 +463,11 @@ summary::-webkit-details-marker {
 }
 
 .l-nav__list-link-heading--point1 {
-  inline-size: calc(126 / var(--layout-width-scroll) * 100vw);
+  inline-size: calc(117 / var(--layout-width-scroll) * 100vw);
 }
 
 .l-nav__list-link-heading--point2 {
-  inline-size: calc(126 / var(--layout-width-scroll) * 100vw);
+  inline-size: calc(117 / var(--layout-width-scroll) * 100vw);
 }
 
 .l-nav__list-link-heading--service {
@@ -535,7 +535,7 @@ summary::-webkit-details-marker {
   inset-inline-start: calc(42 / var(--layout-width-scroll) * 100%);
   margin-block-start: calc(379 / var(--layout-width-scroll) * 100%);
   line-height: var(--leading-tight);
-  font-size: calc(12 * var(--rem-ratio));
+  font-size: calc(11 * var(--rem-ratio));
   color: var(--font-blue);
 }
 
@@ -543,15 +543,26 @@ summary::-webkit-details-marker {
   z-index: var(--front-z-index);
   position: relative;
   margin-block-start: calc(-247 / var(--layout-width-scroll) * 100%);
-  padding-block: calc(46 / var(--layout-width-scroll) * 100%) calc(30 / var(--layout-width-scroll) * 100%);
+  padding-block: calc(70 / var(--layout-width-scroll) * 100%) calc(30 / var(--layout-width-scroll) * 100%);
   background-color: var(--background-yellow);
   box-shadow: var(--shadow-title);
 }
 
 .l-hero__title-elm {
+  z-index: var(--default-z-index);
+  position: relative;
   display: block;
   inline-size: calc(662 / var(--layout-width-scroll) * 100%);
   margin: auto;
+}
+
+.l-hero__title-pop {
+  z-index: var(--front-z-index);
+  position: absolute;
+  inset-block-start: 0;
+  inset-inline-start: calc(24 / var(--layout-width-scroll) * 100%);
+  inline-size: calc(135 / var(--layout-width-scroll) * 100%);
+  margin-block-start: calc(-78 / var(--layout-width-scroll) * 100%);
 }
 
 /* intro */
@@ -1292,11 +1303,11 @@ summary::-webkit-details-marker {
   }
 
   .l-fixed-nav__list-link-heading--point1 {
-    inline-size: calc((126 / 1440) * 100vw);
+    inline-size: calc((117 / 1440) * 100vw);
   }
 
   .l-fixed-nav__list-link-heading--point2 {
-    inline-size: calc((126 / 1440) * 100vw);
+    inline-size: calc((117 / 1440) * 100vw);
   }
 
   .l-fixed-nav__list-link-arrow {
@@ -1402,7 +1413,7 @@ summary::-webkit-details-marker {
   }
 
   .l-hero__attention {
-    font-size: calc((24 * 0.6) / var(--layout-width-max) * 100vw);
+    font-size: calc((22 * 0.6) / var(--layout-width-max) * 100vw);
   }
 
   /* about */
