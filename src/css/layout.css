@@ -858,7 +858,7 @@
 }
 
 .l-footer__number {
-  margin-block-start: calc(50/var(--layout-width-scroll)*100%);
+  margin-block-start: calc(50 / var(--layout-width-scroll) * 100%);
   padding-inline: calc(50 / var(--layout-width-scroll) * 100%);
   font-size: calc(12 * var(--rem-ratio));
   text-align: right;
