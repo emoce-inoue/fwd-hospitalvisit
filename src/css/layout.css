@@ -523,10 +523,8 @@
 }
 
 .l-point__case-graph-heading {
-  font-weight: var(--font-medium);
-  font-size: calc(14 * var(--rem-ratio));
-  text-align: center;
-  letter-spacing: normal;
+  inline-size: calc((567/650)*100%);
+  margin: auto;
 }
 
 .l-point__case-graph-image {
@@ -1144,10 +1142,6 @@
 
   .l-point__case-text {
     font-size: calc((30 * 0.6) / var(--layout-width-max) * 100vw);
-  }
-
-  .l-point__case-graph-heading {
-    font-size: calc((28 * 0.6) / var(--layout-width-max) * 100vw);
   }
 
   .l-point__case-caption {
