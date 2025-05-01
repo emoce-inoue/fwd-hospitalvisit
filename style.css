@@ -849,17 +849,17 @@ summary::-webkit-details-marker {
 }
 
 .l-point__case-graph {
-  margin-block-start: calc((70 / 650) * 100%);
+  margin-block-start: calc((70 / 600) * 100%);
 }
 
 .l-point__case-graph-heading {
-  inline-size: calc((567/650)*100%);
+  inline-size: calc((567 / 600) * 100%);
   margin: auto;
 }
 
 .l-point__case-graph-image {
   inline-size: calc((568 / 600) * 100%);
-  margin: calc((45 / 600) * 100%) auto 0;
+  margin: calc((60 / 600) * 100%) auto 0;
 }
 
 .l-point__case-caption {
